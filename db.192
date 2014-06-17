@@ -1,0 +1,25 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	ns.albertwu.com. root.albertwu.com. (
+			     20		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+200	IN	PTR	ns.albertwu.com
+200	IN	PTR	plex.albertwu.com
+200	IN	PTR	www.albertwu.com
+200	IN	PTR	ftp.albertwu.com
+200	IN	PTR	albertwu.com
+200	IN	PTR	torrent.albertwu.com
+200	IN	PTR	jenkins.albertwu.com
+200	IN	PTR	btsync.albertwu.com
+
+
+; also list other computers
+124	IN	PTR	macbook.albertwu.com
+1	IN	PTR	router.albertwu.com
+40	IN	PTR	windows.albertwu.com
+199	IN	PTR	server2.albertwu.com
